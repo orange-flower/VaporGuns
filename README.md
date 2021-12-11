@@ -19,5 +19,9 @@ Game Scene - the game loads in the correct number of players. Player controls co
 
 Players also only have 3 lives. The health script swaps out the sprite each time the player loses a life. The player also has a 3-second invincibility frame after getting hit. This gives players time to recovery and get out of harms way. This prevents them from dying from 3 successive shots from the enemies. 
 
-End Scene - 
+Player also have the opportunity to pick up powerups. The game is programmed to spawn a powerup between 10 to 60 seconds. There's a 70% chance that rhe powerup spawn is a bomb and a 30% chance that the powerup spawned is a shield. Bombs destroy enemies in the area it explodes in and shields protect players for 5 seconds. The toggle updates with the sprite of teh powerup the player currently has in possession. They can only hold one powerup at a time so the mos recent powerup will override the last one they have.  
+
+Scoring consists of 10 points per enemy, 50 points per mini boss, and 100 points per boss. Both single player and multiplayer only have 1 score. Multiplayer score is the combined effort of both players. The game does not even unless both players have died.
+
+End Scene - The end screen will show the player(s) current score. There are two leaderboards. One for single player and one for multiplayer. The leaderboard stores up to 5 names and score per mode. If a new high score is made, the keyboard will be called and players can enter in their name or team name. There is a max 4-character count. The rest of the space is reserved for score. Players can hit the start button to continue back to the main menu. 
 
