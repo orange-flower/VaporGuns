@@ -26,7 +26,8 @@ Players also only have 3 lives. The health script swaps out the sprite each time
 
 Player also have the opportunity to pick up powerups. The game is programmed to spawn a powerup between 10 to 60 seconds. There's a 70% chance that the powerup spawned is a bomb and a 30% chance that the powerup spawned is a shield. Bombs destroy enemies in the area it area of effect and shields protect players for 5 seconds. The toggle updates with the sprite of the powerup the player currently has in possession. They can only hold one powerup at a time so the most recent powerup will override the last one they have.  
 
-![image](https://user-images.githubusercontent.com/73602536/145910053-9bcb11dc-f733-4bb6-86a8-0fcf38792f0e.png) 
+![image](https://user-images.githubusercontent.com/73602536/145910053-9bcb11dc-f733-4bb6-86a8-0fcf38792f0e.png) ![image](https://user-images.githubusercontent.com/73602536/145910884-a1ba0b41-463b-4bf2-a61a-870628fd527e.png)
+
 
 
 Scoring consists of 10 points per enemy, 50 points per mini boss, and 100 points per boss. Both single player and multiplayer only have 1 score. Single player mode has their own score and multiplayer mode's score is the combined effort of both players. The game does not even unless both players have died.
