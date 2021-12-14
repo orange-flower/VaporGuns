@@ -24,7 +24,7 @@ Game Scene - the game loads in the correct number of players. Player controls co
 
 Players also only have 3 lives. The health script swaps out the sprite each time the player loses a life. The player also has a 3-second invincibility frame after getting hit. This gives players time for recovery and to get out of harms way. This prevents them from dying from 3 successive shots from the enemies. 
 
-![image](https://user-images.githubusercontent.com/73602536/145911488-aa4025d1-a0eb-4691-a15f-43a00ecf22e4.png) ![image](https://user-images.githubusercontent.com/73602536/145911698-4cc2c581-930c-4fea-9a85-73cca2c41214.png) ![image](https://user-images.githubusercontent.com/73602536/145911632-ddf2d1fb-3a20-408a-ac68-6f6e589ef20f.png) 
+![image](https://user-images.githubusercontent.com/73602536/145911488-aa4025d1-a0eb-4691-a15f-43a00ecf22e4.png) ![image](https://user-images.githubusercontent.com/73602536/145911698-4cc2c581-930c-4fea-9a85-73cca2c41214.png)
 
 
 Player also have the opportunity to pick up powerups. The game is programmed to spawn a powerup between 10 to 60 seconds. There's a 70% chance that the powerup spawned is a bomb and a 30% chance that the powerup spawned is a shield. Bombs destroy enemies in the area it area of effect and shields protect players for 5 seconds. The toggle updates with the sprite of the powerup the player currently has in possession. They can only hold one powerup at a time so the most recent powerup will override the last one they have.  
