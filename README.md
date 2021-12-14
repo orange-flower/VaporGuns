@@ -34,7 +34,6 @@ Scoring consists of 10 points per enemy, 50 points per mini boss, and 100 points
 
 End Scene - The end screen will show the player(s) current score. There are two leaderboards. One for single player and one for multiplayer. The leaderboard stores up to 5 names and score per mode. If a new high score is made, the keyboard will be called and players can enter in their name or team name. The keyboard is a container of buttons with and outline component attached. Players move between keys using the player 1 joystick and enter the letter using the shoot button. There is a max 4-character count. The rest of the space is reserved for score. Players can hit the start button to continue back to the main menu. 
 
-![image](https://user-images.githubusercontent.com/73602536/145909300-6540535f-aada-49a4-b2a0-e0c25c9699b1.png) ![image](https://user-images.githubusercontent.com/73602536/145909624-af101f99-0f23-4476-a592-db6a9b91bb9c.png)
-
+![image](https://user-images.githubusercontent.com/73602536/145909300-6540535f-aada-49a4-b2a0-e0c25c9699b1.png) ![image](https://user-images.githubusercontent.com/73602536/145911257-3d61436a-fa80-4ed3-8902-30ee5f54cdf6.png)
 
 
