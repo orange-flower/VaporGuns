@@ -24,13 +24,13 @@ Game Scene - the game loads in the correct number of players. Player controls co
 
 Players also only have 3 lives. The health script swaps out the sprite each time the player loses a life. The player also has a 3-second invincibility frame after getting hit. This gives players time for recovery and to get out of harms way. This prevents them from dying from 3 successive shots from the enemies. 
 
+![image](https://user-images.githubusercontent.com/73602536/145911488-aa4025d1-a0eb-4691-a15f-43a00ecf22e4.png) ![image](https://user-images.githubusercontent.com/73602536/145911632-ddf2d1fb-3a20-408a-ac68-6f6e589ef20f.png)
+
 Player also have the opportunity to pick up powerups. The game is programmed to spawn a powerup between 10 to 60 seconds. There's a 70% chance that the powerup spawned is a bomb and a 30% chance that the powerup spawned is a shield. Bombs destroy enemies in the area it area of effect and shields protect players for 5 seconds. The toggle updates with the sprite of the powerup the player currently has in possession. They can only hold one powerup at a time so the most recent powerup will override the last one they have.  
 
 ![image](https://user-images.githubusercontent.com/73602536/145910053-9bcb11dc-f733-4bb6-86a8-0fcf38792f0e.png) ![image](https://user-images.githubusercontent.com/73602536/145910884-a1ba0b41-463b-4bf2-a61a-870628fd527e.png)
 
 Scoring consists of 10 points per enemy, 50 points per mini boss, and 100 points per boss. Both single player and multiplayer only have 1 score. Single player mode has their own score and multiplayer mode's score is the combined effort of both players. The game does not even unless both players have died.
-
-![image](https://user-images.githubusercontent.com/73602536/145911488-aa4025d1-a0eb-4691-a15f-43a00ecf22e4.png) ![image](https://user-images.githubusercontent.com/73602536/145911545-41b20b44-7276-4ed5-8d13-1c18bff9edd6.png)
 
 End Scene - The end screen will show the player(s) current score. There are two leaderboards. One for single player and one for multiplayer. The leaderboard stores up to 5 names and score per mode. If a new high score is made, the keyboard will be called and players can enter in their name or team name. The keyboard is a container of buttons with and outline component attached. Players move between keys using the player 1 joystick and enter the letter using the shoot button. There is a max 4-character count. The rest of the space is reserved for score. Players can hit the start button to continue back to the main menu. 
 
