@@ -15,7 +15,8 @@ Each player’s controls are the left set of controls which includes:
 
 Main Menu - consists of two toggles that start off. Players can hit their start button to add their car. To start the game, it requires 2 button presses — either two player-1 start button presses or a player-1 and a player-2 button press. If 10 seconds pass before the second press happens, the mode select times out and is reset. 
 
-![image](https://user-images.githubusercontent.com/73602536/145908509-506fa6c3-96a3-4fc3-9413-1bdf43849a8d.png) ![image](https://user-images.githubusercontent.com/73602536/145908718-574d71ef-4aed-45e9-bc59-254bf5fa0938.png)
+![image](https://user-images.githubusercontent.com/73602536/145908509-506fa6c3-96a3-4fc3-9413-1bdf43849a8d.png) ![image](https://user-images.githubusercontent.com/73602536/145908718-574d71ef-4aed-45e9-bc59-254bf5fa0938.png) ![image](https://user-images.githubusercontent.com/73602536/145908920-0db7f988-8277-41ea-b299-7e885479771a.png)
+
 
 
 Game Scene - the game loads in the correct number of players. Player controls consists of holding the shoot button to streamline a fixed shooting rate. The game is structured in stages. Each stage has x number of waves which increases every other stage. There are 5 different wave formation that are randomly picked and instantiated. After the waves are spawned in, the boss is instantiated. The boss consists of 6 mini boss parts. Players have to defeat all the mini bosses first before being able to damage to the main boss body. Once the boss is defeated, the script calls another stage and the core game loop is repeated.  
