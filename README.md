@@ -5,11 +5,13 @@ Vapor Guns is a vaporwave-themed bullet-hell arcade game. The game is available 
 
 **Game Controls:**
 
-Each player’s controls are the left set of controls which includes:
+Each player’s controls consists of a set which includes:
 - Start button
 - Joystick for movement
 - Shoot key (can be held down for rapid shooting)
 - Use Powerup key (will deploy powerup if there is one in the inventory)
+
+With player 1 being on the left and player 2 on the right. 
 
 **Code Goals:**
 
