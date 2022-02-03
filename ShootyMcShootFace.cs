@@ -30,12 +30,10 @@ public class ShootyMcShootFace : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //courtine to limit player 1 shooting
         if (!isTicking1)
         {
             StartCoroutine(Player1Coroutine());
         }
-        //courtine to limit player 2 shooting
         if (!isTicking2)
         {
             StartCoroutine(Player2Coroutine());
@@ -48,7 +46,6 @@ public class ShootyMcShootFace : MonoBehaviour
         {
             if (player1CanShoot)
             {
-                // set a start locaton player to instantiate a projectile with velocity
                 startLoc1 = player1.transform.position;
                 GameManager.current.sfx.PlayOneShot(GameManager.current.clipArray[2], 0.6f);
                 GameObject projectile = Instantiate(bulletPrefab1, startLoc1 + new Vector2(0, 1), Quaternion.identity);
@@ -63,7 +60,6 @@ public class ShootyMcShootFace : MonoBehaviour
             {
                 if (player2CanShoot)
                 {
-                    // set a start locaton player to instantiate a projectile with velocity
                     startLoc2 = player2.transform.position;
                     GameManager.current.sfx.PlayOneShot(GameManager.current.clipArray[2], 0.6f);
                     GameObject projectile = Instantiate(bulletPrefab2, startLoc2 + new Vector2(0, 1), Quaternion.identity);
@@ -77,7 +73,6 @@ public class ShootyMcShootFace : MonoBehaviour
 
     IEnumerator Player1Coroutine()
     {
-        //limits player 1 shooting
         isTicking1 = true;
         yield return new WaitForSeconds(0.3f);
         player1CanShoot = true;
@@ -85,7 +80,6 @@ public class ShootyMcShootFace : MonoBehaviour
     }
     IEnumerator Player2Coroutine()
     {
-        //limits player 2 shooting
         isTicking2 = true;
         yield return new WaitForSeconds(0.3f);
         player2CanShoot = true;

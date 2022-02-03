@@ -48,6 +48,7 @@ public class MiniBossHP : MonoBehaviour
         {
             bossScript.miniBossesLeft -= 1;
             miniHpSlider.gameObject.SetActive(false);
+            Tracker.currentScore += 50;
             Destroy(gameObject);
         }
     }
